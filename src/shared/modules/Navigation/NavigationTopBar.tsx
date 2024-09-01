@@ -3,7 +3,7 @@ import {Stack, Typography} from "@mui/material"
 
 export const NavigationTopBar = () => {
   return (
-    <Stack sx={{ bgcolor: 'secondary.main', px: 2, borderBottom: '4px solid', borderColor: '#F8AD28' }}>
+    <Stack sx={{ bgcolor: '#3A2BC9', px: 2 }}>
       <Stack direction="row" sx={{ maxWidth: 1140, width: '100%', height: 48, mx: 'auto', alignItems: 'center', justifyContent: 'space-between' }}>
         <Stack direction="row"  spacing={1} alignItems="center" height="100%" color="white">
           <Icon name="message-circle-heart" size={20} strokeWidth={2} /> 

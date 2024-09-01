@@ -1,7 +1,10 @@
+import {Stack} from '@mui/material'
 import Image from 'next/image'
 
 export const Logo = () => {
   return (
-    <Image src="/ianna-logo-white.png" width={120} height={55} alt="Ianna 12 085" />
+    <Stack sx={{ display: 'block', position: 'relative', width: 160, height: 80 }}>
+      <Image src="/ianna-logo-white.png" fill alt="Ianna 12 085" />
+    </Stack>
   )
 }

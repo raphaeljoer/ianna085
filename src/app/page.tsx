@@ -1,6 +1,6 @@
-import {Slider} from "@/shared/components/Slider/slider";
 import {Navigation} from "@/shared/modules/Navigation";
-import {Stack} from "@mui/material";
+import {Stack} from "@mui/material"; 
+import {Slider} from '@/shared/components/Slider/slider';
 
 export default function Home() {
   return (
